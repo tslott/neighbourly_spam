@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "neighbourly_spam"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Slott Jensen <tsj@damvad.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.7.9"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
